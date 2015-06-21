@@ -15,7 +15,7 @@ The script handles the required task in 4 steps
 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Run the Script:
-To run the script ensure the zipped downloadable file is unzipped to WD directly ignoring the root folder UCI HAR Dataset. So content of Train and test data and the features and labels files are directly in the Wording directory  
+To run the script ensure the zipped downloadable file is unzipped to Working Directory. 
 
 Final output
 The final output of the script is to generate text file “uci_har_meanstd_avg.txt”

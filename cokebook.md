@@ -17,7 +17,9 @@ Data was split into 2 main sections Training Data and Test data containing the f
 - 'test/X_test.txt': Test set.
 - 'test/y_test.txt': Test labels.
 
-The data lists 6 activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)  carried out by 30 Subjects measuring  561 Variables. Of those 561 Only 65 Variables of interested indicating mean and standard deviation measurements were selected. 
+The data lists 6 activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)  carried out by 30 Subjects measuring  561 Variables. 
+Of those 561 Only 65 Variables of interested indicating mean and standard deviation measurements were selected. 
+ 
  Variables:
 timeBodyAccelerometer-mean()-X       
 timeBodyAccelerometer-mean()-Y              

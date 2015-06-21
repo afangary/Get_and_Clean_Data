@@ -5,16 +5,16 @@
 
 ##-- Step 1.1 Read Data from Files
   #Read Subject Files
-    SubjectTrain <- read.table("train/subject_train.txt") 
-    SubjectTest <- read.table("test/subject_test.txt")
+    SubjectTrain <- read.table("UCI HAR Dataset/train/subject_train.txt") 
+    SubjectTest <- read.table("UCI HAR Dataset/test/subject_test.txt")
   #Read Activity Files
-    TrainingLabels <- read.table("train/y_train.txt") 
-    TestLables <- read.table("test/y_test.txt") 
+    TrainingLabels <- read.table("UCI HAR Dataset/train/y_train.txt") 
+    TestLables <- read.table("UCI HAR Dataset/test/y_test.txt") 
   #Read Features Files
-    TrainingFeat <- read.table("train/X_train.txt") 
-    TestFeat <- read.table("test/X_test.txt") 
+    TrainingFeat <- read.table("UCI HAR Dataset/train/X_train.txt") 
+    TestFeat <- read.table("UCI HAR Dataset/test/X_test.txt") 
   #Read Feature names files
-    FeatureNames <- read.table("features.txt")
+    FeatureNames <- read.table("UCI HAR Dataset/features.txt")
 
 ##--Step 1.2-- Merge the training and test sets and name headers where required.
     #Bind & name headers of Feature sets
